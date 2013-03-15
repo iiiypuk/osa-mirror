@@ -1,0 +1,40 @@
+* { margin: 0; padding: 0; }
+
+body { background-image: url("res/bg.png"); }
+
+.wrap {
+	font-family: 'PT Sans';
+	margin: auto;
+	width: 800px; min-width: 500px;
+}
+
+.center {
+	text-align: center;
+}
+
+a {
+	-webkit-transition: all 200ms;
+	color: #444;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: underline;
+	text-shadow: 0 0 5px #666;
+}
+
+.osa {
+	-webkit-transition: all 200ms;
+	background-image: url("res/bg1.png");
+	border: 2px solid #999; border-radius: 3px;
+	display: inline-block;
+	opacity: 0.5;
+	margin: 5px;
+	padding: 5px;
+}
+
+.osa:hover {
+	border-color: #444;
+	opacity: 1;
+}
