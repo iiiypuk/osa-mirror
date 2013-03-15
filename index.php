@@ -6,7 +6,7 @@ echo <<<_HTML
 <html lang="ru">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>&#171;Open Source&#187; -- электронный журнал о свободном ПО и ПО с открытым кодом</title>
+	<title>&#171;Open Source&#187; - электронный журнал о свободном ПО и ПО с открытым кодом</title>
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=cyrillic" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -19,7 +19,7 @@ for($a = 126; $a >= 1; $a--) {
 	if($a < 10) {
 		echo <<<_HTML
 		<div class="osa">
-			Выпуск<br />№${a}
+			<a href="http://osa.samag.ru/info/OpenSource00${a}" title="Выпуск №${a}">Выпуск</a><br />№${a}
 			<p class="center"><a href="${download_url}00${a}.zip" title="Скачать выпуск №001">Скачать</a></p>
 		</div>
 _HTML;
@@ -27,7 +27,7 @@ _HTML;
 	elseif($a < 100) {
 		echo <<<_HTML
 		<div class="osa">
-			Выпуск<br />№${a}
+			<a href="http://osa.samag.ru/info/OpenSource0${a}" title="Выпуск №${a}">Выпуск</a><br />№${a}
 			<p class="center"><a href="${download_url}0${a}.zip" title="Скачать выпуск №001">Скачать</a></p>
 		</div>
 _HTML;
@@ -35,7 +35,7 @@ _HTML;
 	else {
 		echo <<<_HTML
 		<div class="osa">
-			Выпуск<br />№${a}
+			<a href="http://osa.samag.ru/info/OpenSource${a}" title="Выпуск №${a}">Выпуск</a><br />№${a}
 			<p class="center"><a href="${download_url}${a}.zip" title="Скачать выпуск №001">Скачать</a></p>
 		</div>
 _HTML;
