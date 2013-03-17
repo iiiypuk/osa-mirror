@@ -1,6 +1,10 @@
 * { margin: 0; padding: 0; }
 
-body { background-image: url("res/bg.png"); }
+body {
+	background-image: url("res/bg.png");
+	box-shadow: 0 0 20px #000 inset;
+	padding: 20px;
+}
 
 .wrap {
 	font-family: 'PT Sans';
@@ -26,7 +30,7 @@ a:hover {
 
 .osa {
 	-webkit-transition: all 200ms;
-	background-image: url("res/bg1.png");
+	background-color: rgba(255, 255, 255, 0.9);
 	border: 2px solid #999; border-radius: 3px;
 	display: inline-block;
 	opacity: 0.5;

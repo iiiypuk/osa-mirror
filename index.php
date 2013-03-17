@@ -41,7 +41,6 @@ _HTML;
 _HTML;
 	}
 
-	
 }
 
 echo <<<_HTML
