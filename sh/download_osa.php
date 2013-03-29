@@ -16,7 +16,7 @@
 	}
 
 	$osa = array();
-	$osa_end = 124;
+	$osa_end = 127; # last number journal
 
 	get();
 	echo "#!/bin/sh\n";

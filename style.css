@@ -2,7 +2,6 @@
 
 body {
 	background-image: url("res/bg.png");
-	box-shadow: 0 0 20px #000 inset;
 	padding: 20px;
 }
 
@@ -25,7 +24,7 @@ a {
 a:hover {
 	color: #000;
 	text-decoration: underline;
-	text-shadow: 0 0 5px #666;
+	text-shadow: 0 0 2px rgb(192, 16, 86);
 }
 
 .osa {
@@ -39,6 +38,6 @@ a:hover {
 }
 
 .osa:hover {
-	border-color: #444;
+	border-color: rgb(192, 16, 86);
 	opacity: 1;
 }

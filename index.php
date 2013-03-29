@@ -1,5 +1,5 @@
 <?php
-$download_url = 'ftp://198.12.68.159/dl/osa/OpenSource';
+require_once('settings.php');
 
 echo <<<_HTML
 <!DOCTYPE html>
@@ -15,7 +15,7 @@ echo <<<_HTML
 		<p class="center"><img src="res/logo.png" alt="OpenSource"></p>
 _HTML;
 
-for($a = 126; $a >= 1; $a--) {
+for($a = 127; $a >= 1; $a--) {
 	if($a < 10) {
 		echo <<<_HTML
 		<div class="osa">
