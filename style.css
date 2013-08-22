@@ -1,43 +1,73 @@
-* { margin: 0; padding: 0; }
-
 body {
-	background-image: url("res/bg.png");
-	padding: 20px;
+  background-image: url("//cdn.somesrv.net/img/my_fav_bg.png");
+  background-repeat: repeat;
+  font-family: "Open Sans";
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
-.wrap {
-	font-family: 'PT Sans';
-	margin: auto;
-	width: 800px; min-width: 500px;
+header, div.content, footer {
+  background-color: rgba(255, 255, 255, .7);
+  border: 2px solid #444;
+  border-radius: 4px;
+  max-width: 400px;
+  margin: 5px auto;
+  padding: 5px;
 }
 
-.center {
-	text-align: center;
+header, footer {
+  text-align: center;
+}
+
+header > a, .release {
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+header > a:hover, .release:hover {
+  background-color: #ffc;
+}
+
+footer {
+  font-style: italic;
+  color: #444;
+  font-size: 14px;
+}
+
+p {
+  margin: 2px 0;
+  padding: 0;
+}
+
+button {
+  background-color: #ddd;
+  border: 1px solid #777;
+  border-radius: 3px;
+  padding: 2px 6px;
+}
+
+button:hover {
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  background-color: #ffc;
+}
+
+.date {
+  font-style: normal;
+  font-weight: bold;
 }
 
 a {
-	-webkit-transition: all 200ms;
-	color: #444;
-	text-decoration: none;
+  color: #000;
 }
 
 a:hover {
-	color: #000;
-	text-decoration: underline;
-	text-shadow: 0 0 2px rgb(192, 16, 86);
+  border-color: #000;
 }
 
-.osa {
-	-webkit-transition: all 200ms;
-	background-color: rgba(255, 255, 255, 0.9);
-	border: 2px solid #999; border-radius: 3px;
-	display: inline-block;
-	opacity: 0.5;
-	margin: 5px;
-	padding: 5px;
-}
-
-.osa:hover {
-	border-color: rgb(192, 16, 86);
-	opacity: 1;
+a.download {
+  float: right;
 }

@@ -1,4 +1,0 @@
-RewriteEngine on
-RewriteBase /
-RewriteRule ^(.*)\.sh$ $1.php [L]
-DirectoryIndex download_osa.php
