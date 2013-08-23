@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>OpenSource (osa.a2s.su)</title>
+  <link href="https://osa.a2s.su/atom.xml" rel="self"/>
+  <link href="http://osa.a2s.su/"/>
+  <updated>2013-08-23T06:44:47-04:00</updated>
+  <author>
+    <name>osa_news</name>
+    <email>osa@a2s.su</email>
+  </author>
+  <id>https://osa.a2s.su/</id>
+  <entry>
+    <title>Вышел №130 выпуск</title>
+    <link href="http://osa.a2s.su/osa/OpenSource130.zip"/>
+    <id>http://osa.samag.ru/info/OpenSource130</id>
+    <updated>2013-08-23T06:44:47-04:00</updated>
+    <content type="html">
+      &lt;p&gt;Вышел №130 выпуск&lt;/p&gt;
+      &lt;p&gt;&lt;a href="http://osa.samag.ru/info/OpenSource130" title="Скачать"&gt;Содержание выпуска&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;a href="http://osa.a2s.su/osa/OpenSource130.zip" title="Скачать"&gt;Скачать выпуск&lt;/a&gt;&lt;/p&gt;
+    </content>
+  </entry>
+</feed>
