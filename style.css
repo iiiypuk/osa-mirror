@@ -1,5 +1,5 @@
 body {
-  background-image: url("//cdn.somesrv.net/img/my_fav_bg.png");
+  background-image: url("bg.png");
   background-repeat: repeat;
   font-family: "Open Sans";
   font-size: 16px;
@@ -16,18 +16,14 @@ header, div.content, footer {
   padding: 5px;
 }
 
-header, footer {
-  text-align: center;
-}
-
-header > a, .release {
+header a, .release {
   -webkit-transition: all 200ms;
   transition: all 200ms;
   border-radius: 3px;
   padding: 2px;
 }
 
-header > a:hover, .release:hover {
+header a:hover, .release:hover {
   background-color: #ffc;
 }
 
@@ -35,6 +31,7 @@ footer {
   font-style: italic;
   color: #444;
   font-size: 14px;
+  text-align: center;
 }
 
 p {
@@ -55,11 +52,6 @@ button:hover {
   background-color: #ffc;
 }
 
-.date {
-  font-style: normal;
-  font-weight: bold;
-}
-
 a {
   color: #000;
 }
@@ -71,3 +63,11 @@ a:hover {
 a.download {
   float: right;
 }
+
+.date {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.right { float: right; }
+.center { text-align: center; }
