@@ -1,10 +1,10 @@
 ### Что это? ###
 Это исходный код проекта по зеркалированию журнала [OpenSource](http://osa.samag.ru/).
 
-### generate_csv.php ###
+### generate_release.php ###
 Генерирует файл `osa.csv` со списком выпусков, которые отображаются на странице загрузок.  
 
-### generate_xml.php ###
+### generate_atom.php ###
 Генерирует фид `atom.xml`. 
 
 ### download.sh ###
